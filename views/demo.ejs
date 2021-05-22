@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="final.css">
+    <title>Convertidor Wyskas</title>
+</head>
+<%- include('navbar.ejs'); %>
+<div class="card" id="card" style="width:400px">
+<form action="/download" method="POST">
+    <img class="card-img-top" src='<%=doc.thumbnail%>' alt="PORTADA">
+    <div class="card-body">
+      <h4 class="card-title"><%=doc.title%></h4>
+      <p class="card-text">Completado</p>
+      <input id="dd" name="dato" type="text" value='<%=data%>'>
+      <button type="submit" class="btn btn-primary">Descargar</button>
+    </div>
+  </div>
+</form>
+<form action="/delete" method="POST">
+    <input id="dd" name="dele" type="text" value='<%=data%>'>
+<button id="Nv" type="submit" class="btn btn-primary">Nuevo video</button>
+</form>

@@ -1,0 +1,27 @@
+ #principal{
+            border: groove 5px;
+            position: relative;
+            left: 25%;
+            top: 15%;
+            width: 50%;
+            text-align: center;
+        }#linea{
+            width: 70%;
+        }#info{
+            position: relative;
+            top: 25%;
+            left: 17%;
+            width: 22%;
+            text-align: center;
+        }
+        #info2{
+            position: relative;
+            top: 6%;
+            left: 60%;
+            width: 22%;
+            text-align: center;
+        }#formatos{
+            position: relative;
+            display: inline-block;
+            width: 40%;
+        }

@@ -1,0 +1,14 @@
+#dd{
+    display: none;
+}
+#card{
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+#Nv{
+    position: relative;
+    left: 54%;
+    top: 10px;
+    
+}

@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Convertidor Wyskas</title>
+</head>
+<%- include('navbar.ejs'); %>
+<div id="principal">
+<form action="/convertir" method="POST">
+    <h1>Ingresa URL de Youtube</h1>
+    <div class="form-group">
+      <label for="pwd">URL :</label>
+      <input type="text" id="linea" name="url" placeholder="Ingresa URL de Youtube" id="pwd">
+      <select name="formato"  class="btn btn-primary">
+          <option value="mp3">mp3</option>
+          <option value="m4a">m4a</option>
+          <option value="mp4">mp4</option>
+          <option value="3gp">3gp</option>
+      </select>
+    </div>
+    <div class="form-group form-check">
+    </div>
+    <button type="submit" class="btn btn-primary">Convertir</button>
+  </form>
+</div>
+<%- include('info.ejs'); %>
